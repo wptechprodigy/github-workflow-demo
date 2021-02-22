@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		045AFFF425E3EE84008A6EA6 /* Apicaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045AFFF325E3EE84008A6EA6 /* Apicaller.swift */; };
 		045AFFF825E3EE9B008A6EA6 /* ApiCallerStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045AFFF725E3EE9B008A6EA6 /* ApiCallerStruct.swift */; };
+=======
+		046EC57A25E3EC2B00A44EFC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046EC57925E3EC2B00A44EFC /* User.swift */; };
+>>>>>>> b91a75ba10d5b9a4e303e79f0445433b5459d3e2
 		047D089825E3E61900FC90B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D089725E3E61900FC90B9 /* AppDelegate.swift */; };
 		047D089A25E3E61900FC90B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D089925E3E61900FC90B9 /* SceneDelegate.swift */; };
 		047D089C25E3E61900FC90B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D089B25E3E61900FC90B9 /* ViewController.swift */; };
@@ -18,8 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		045AFFF325E3EE84008A6EA6 /* Apicaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apicaller.swift; sourceTree = "<group>"; };
 		045AFFF725E3EE9B008A6EA6 /* ApiCallerStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallerStruct.swift; sourceTree = "<group>"; };
+=======
+		046EC57925E3EC2B00A44EFC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+>>>>>>> b91a75ba10d5b9a4e303e79f0445433b5459d3e2
 		047D089425E3E61900FC90B9 /* Github Workflow Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Github Workflow Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047D089725E3E61900FC90B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		047D089925E3E61900FC90B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +49,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		045AFFF225E3EE68008A6EA6 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
@@ -48,6 +57,14 @@
 				045AFFF725E3EE9B008A6EA6 /* ApiCallerStruct.swift */,
 			);
 			path = Managers;
+=======
+		046EC57825E3EC0200A44EFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				046EC57925E3EC2B00A44EFC /* User.swift */,
+			);
+			path = Model;
+>>>>>>> b91a75ba10d5b9a4e303e79f0445433b5459d3e2
 			sourceTree = "<group>";
 		};
 		047D088B25E3E61900FC90B9 = {
@@ -69,7 +86,11 @@
 		047D089625E3E61900FC90B9 /* Github Workflow Demo */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				045AFFF225E3EE68008A6EA6 /* Managers */,
+=======
+				046EC57825E3EC0200A44EFC /* Model */,
+>>>>>>> b91a75ba10d5b9a4e303e79f0445433b5459d3e2
 				047D089725E3E61900FC90B9 /* AppDelegate.swift */,
 				047D089925E3E61900FC90B9 /* SceneDelegate.swift */,
 				047D089B25E3E61900FC90B9 /* ViewController.swift */,
@@ -151,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046EC57A25E3EC2B00A44EFC /* User.swift in Sources */,
 				047D089C25E3E61900FC90B9 /* ViewController.swift in Sources */,
 				047D089825E3E61900FC90B9 /* AppDelegate.swift in Sources */,
 				045AFFF825E3EE9B008A6EA6 /* ApiCallerStruct.swift in Sources */,
